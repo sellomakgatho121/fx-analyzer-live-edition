@@ -1,0 +1,137 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - generic [ref=e7]: FX
+            - generic [ref=e8]: NEXUS PRO
+          - generic [ref=e9]:
+            - link "Features" [ref=e10] [cursor=pointer]:
+              - /url: "#features"
+            - link "Performance" [ref=e11] [cursor=pointer]:
+              - /url: "#performance"
+            - link "Pricing" [ref=e12] [cursor=pointer]:
+              - /url: "#pricing"
+            - link "Launch Terminal" [ref=e13] [cursor=pointer]:
+              - /url: /login
+      - generic [ref=e14]:
+        - generic [ref=e18]:
+          - generic [ref=e20]:
+            - img [ref=e21]
+            - text: Powered by Gemini AI — Mixture of Experts
+          - heading "Institutional-Grade FX Signals At Your Fingertips" [level=1] [ref=e23]:
+            - text: Institutional-Grade FX Signals
+            - text: At Your Fingertips
+          - paragraph [ref=e24]: Four specialized AI agents analyze technicals, fundamentals, sentiment, and risk in real-time — delivering high-conviction trading signals directly to your MetaTrader 5.
+          - generic [ref=e25]:
+            - link "Start Trading" [ref=e26] [cursor=pointer]:
+              - /url: /login
+              - text: Start Trading
+              - img [ref=e27]
+            - link "Explore Features" [ref=e29] [cursor=pointer]:
+              - /url: "#features"
+        - generic [ref=e30]:
+          - generic [ref=e31]: Scroll to explore
+          - img [ref=e33]
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: "4"
+          - generic [ref=e39]: AI Experts
+        - generic [ref=e40]:
+          - generic [ref=e41]: 6+
+          - generic [ref=e42]: Currency Pairs
+        - generic [ref=e43]:
+          - generic [ref=e44]: <2s
+          - generic [ref=e45]: Signal Latency
+        - generic [ref=e46]:
+          - generic [ref=e47]: 24/7
+          - generic [ref=e48]: Market Coverage
+      - generic [ref=e50]:
+        - generic [ref=e52]:
+          - generic [ref=e53]: Why Nexus Pro
+          - heading "Built for Serious Traders" [level=2] [ref=e54]
+          - paragraph [ref=e55]: Every component is engineered for accuracy, speed, and security.
+        - generic [ref=e56]:
+          - generic [ref=e58]:
+            - img [ref=e61]
+            - heading "Mixture of Experts AI" [level=3] [ref=e64]
+            - paragraph [ref=e65]: Four specialized LLM agents — Technical, Fundamental, Sentiment, and Risk — debate and synthesize signals using the MM-DREX architecture.
+          - generic [ref=e67]:
+            - img [ref=e70]
+            - heading "Regime-Adaptive Signals" [level=3] [ref=e73]
+            - paragraph [ref=e74]: The AI dynamically shifts its weighting based on live market volatility, overweighting technicals in fast markets and fundamentals during macro shifts.
+          - generic [ref=e76]:
+            - img [ref=e79]
+            - heading "Risk Shield Protection" [level=3] [ref=e81]
+            - paragraph [ref=e82]: Built-in drawdown limits, position caps, and kill switches protect your account even under aggressive auto-trading conditions.
+          - generic [ref=e84]:
+            - img [ref=e87]
+            - heading "MT5 Direct Execution" [level=3] [ref=e89]
+            - paragraph [ref=e90]: Signals bridge directly to MetaTrader 5 via ZeroMQ for sub-second order execution with slippage tracking and confirmation.
+          - generic [ref=e92]:
+            - img [ref=e95]
+            - heading "Enterprise Security" [level=3] [ref=e98]
+            - paragraph [ref=e99]: JWT-authenticated WebSocket connections, session-gated access, and encrypted API proxying keep your trading data isolated.
+          - generic [ref=e101]:
+            - img [ref=e104]
+            - heading "Paper Trading Engine" [level=3] [ref=e106]
+            - paragraph [ref=e107]: Test every signal risk-free with a full paper trading simulation including equity curves, win rates, and drawdown analytics.
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e111]: Transparent Results
+          - heading "Every Signal Is Verified" [level=2] [ref=e112]
+          - paragraph [ref=e113]: Our Track Record Ledger automatically validates whether each historical signal was profitable. No hidden results. No cherry-picking. Full accountability.
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - generic [ref=e117]: 84.5%
+            - generic [ref=e118]: Win Rate (30d)
+          - generic [ref=e119]:
+            - generic [ref=e120]: 2.4:1
+            - generic [ref=e121]: Risk/Reward Ratio
+          - generic [ref=e122]:
+            - generic [ref=e123]: 1,247
+            - generic [ref=e124]: Signals Generated
+      - generic [ref=e126]:
+        - generic [ref=e128]:
+          - generic [ref=e129]: Simple Pricing
+          - heading "Choose Your Edge" [level=2] [ref=e130]
+        - generic [ref=e131]:
+          - generic [ref=e133]:
+            - generic [ref=e134]: Free
+            - generic [ref=e135]: $0 / R0/mo
+            - paragraph [ref=e136]: Explore the platform and paper trade.
+            - generic [ref=e137]:
+              - generic [ref=e138]: Paper Trading Engine
+              - generic [ref=e141]: Delayed Signal Snapshots
+              - generic [ref=e144]: Basic Chart Analysis
+              - generic [ref=e147]: Community Support
+            - link "Get Started" [ref=e150] [cursor=pointer]:
+              - /url: /login
+          - generic [ref=e152]:
+            - generic [ref=e154]:
+              - generic [ref=e155]: Pro
+              - generic [ref=e156]: Popular
+            - generic [ref=e157]: $49 / R890/mo
+            - paragraph [ref=e158]: Full access to live AI signals and MT5 execution.
+            - generic [ref=e159]:
+              - generic [ref=e160]: Real-Time AI Signals (4 Experts)
+              - generic [ref=e163]: MT5 Direct Execution
+              - generic [ref=e166]: Risk Shield Protection
+              - generic [ref=e169]: Track Record Ledger
+              - generic [ref=e172]: AI Trade Recommendations
+              - generic [ref=e175]: Priority Support
+            - link "Start Pro Trial" [ref=e178] [cursor=pointer]:
+              - /url: /login
+      - generic [ref=e180]:
+        - img [ref=e181]
+        - heading "Ready to Trade Smarter?" [level=2] [ref=e184]
+        - paragraph [ref=e185]: Join the next generation of algorithmic traders in South Africa leveraging AI Mixture-of-Experts for institutional-grade market signals.
+        - link "Launch Your Terminal" [ref=e186] [cursor=pointer]:
+          - /url: /login
+          - text: Launch Your Terminal
+          - img [ref=e187]
+      - paragraph [ref=e190]: © 2026 FX Nexus Pro — Algorithmic Trading Platform. Not financial advice.
+  - button "Open Next.js Dev Tools" [ref=e196] [cursor=pointer]:
+    - img [ref=e197]
+  - alert [ref=e204]

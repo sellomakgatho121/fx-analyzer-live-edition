@@ -1,0 +1,3 @@
+# backtest run failed
+
+**Error**: backtest: no real BTC-USD bars available (upstream fetch failed) — refusing to compute on fabricated data

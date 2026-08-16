@@ -1,0 +1,24 @@
+# Vibe-Trading Alpha Benchmarking Report
+**Source**: engine (native computation, real yfinance 1m bars)
+**Universe**: BTCUSD, ETHUSD, EURUSD, GBPUSD, US30, US500, USDJPY
+**Horizon**: 20-bar forward returns · IC = rank correlation (Spearman)
+
+## Factor Leaderboard (by |mean IC|)
+1. **momentum_20**: mean IC = -0.0845, ICIR = -0.60 (across 7 assets)
+2. **rsi_14**: mean IC = -0.0628, ICIR = -0.47 (across 7 assets)
+3. **momentum_10**: mean IC = -0.0542, ICIR = -0.39 (across 7 assets)
+4. **momentum_5**: mean IC = -0.0524, ICIR = -0.47 (across 7 assets)
+5. **volatility_10**: mean IC = +0.0410, ICIR = 0.44 (across 7 assets)
+6. **volume_surge**: mean IC = +0.0190, ICIR = 0.34 (across 4 assets)
+7. **volatility_20**: mean IC = +0.0154, ICIR = 0.12 (across 7 assets)
+
+## Per-Asset Coverage
+| Symbol | Bars |
+|---|---|
+| BTCUSD | 500 |
+| ETHUSD | 500 |
+| EURUSD | 500 |
+| GBPUSD | 500 |
+| US30 | 500 |
+| US500 | 500 |
+| USDJPY | 500 |

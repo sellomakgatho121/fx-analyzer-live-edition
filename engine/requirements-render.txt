@@ -1,0 +1,18 @@
+# Engine runtime deps for the Render container.
+# This is the LEAN set: only what the engine actually imports at boot plus
+# the small LLM SDKs used lazily by vibe research / agent bridge.
+# Excluded on purpose (too heavy for Render's 512MB disk, and only used by
+# optional deep-learning / TradingAgents-MCP features that degrade gracefully):
+#   torch, torchvision, torchtext, transformers, matplotlib,
+#   langchain*, langgraph, langchain-mcp-adapters, aiohttp, vibe-trading-ai
+pandas>=2.2.0
+numpy>=1.26.0
+ta>=0.11.0
+pyzmq>=25.1.2
+python-dotenv>=1.0.1
+requests>=2.31.0
+feedparser>=6.0.10
+yfinance
+
+# LLM provider (imported lazily; small enough for the free tier)
+openai>=1.12.0

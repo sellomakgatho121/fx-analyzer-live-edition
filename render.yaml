@@ -1,0 +1,28 @@
+# FX Analyzer — Render blueprint (reference).
+#
+# The deployed app is a single-origin Docker web service built from the
+# Dockerfile in this directory (static frontend export + Express backend +
+# optional in-container engine). The live service (fx-analyzer-live) is
+# configured from the Render dashboard against this Dockerfile; this file is
+# kept as the canonical blueprint for recreating it.
+#
+# Frontend rebuilds are NOT done in Docker: run `sh scripts/build-frontend.sh`
+# and commit the regenerated frontend/out (keeps free-tier builds light).
+#
+# Secrets (JWT_SECRET, API_KEY, OPENAI/Gemini keys, CTRADER_*) are set as
+# Render env vars or Secret Files; the engine and backend also load
+# /app/.env and /etc/secrets/.env when mounted (commit 7070c9f).
+
+services:
+  - type: web
+    name: fx-analyzer-live
+    runtime: docker
+    dockerfilePath: Dockerfile
+    region: oregon
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 4000

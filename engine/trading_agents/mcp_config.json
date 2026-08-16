@@ -1,0 +1,20 @@
+{
+  "mcpServers": {},
+  "agent_permissions": {
+    "company_overview_analyst": false,
+    "market_analyst": false,
+    "sentiment_analyst": false,
+    "news_analyst": false,
+    "fundamentals_analyst": false,
+    "shareholder_analyst": false,
+    "product_analyst": false,
+    "bull_researcher": false,
+    "bear_researcher": false,
+    "research_manager": false,
+    "trader": false,
+    "aggressive_risk_analyst": false,
+    "safe_risk_analyst": false,
+    "neutral_risk_analyst": false,
+    "risk_manager": false
+  }
+}

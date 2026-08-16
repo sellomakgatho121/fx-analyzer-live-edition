@@ -1,0 +1,7 @@
+{
+    "TechnicalExpert": "opencode:deepseek-v4-flash-free",
+    "FundamentalExpert": "opencode:deepseek-v4-flash-free",
+    "SentimentExpert": "opencode:deepseek-v4-flash-free",
+    "RiskManager": "opencode:deepseek-v4-flash-free",
+    "Orchestrator": "opencode:deepseek-v4-flash-free"
+}

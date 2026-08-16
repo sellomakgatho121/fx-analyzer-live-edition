@@ -1,0 +1,3 @@
+# alpha_bench run failed
+
+**Error**: alpha_bench: no real data for any universe symbol (upstream fetch failed) — refusing to compute on fabricated data

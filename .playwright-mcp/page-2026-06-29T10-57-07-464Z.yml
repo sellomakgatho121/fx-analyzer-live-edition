@@ -1,0 +1,27 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: FX
+        - heading "Welcome Back" [level=1] [ref=e8]
+        - paragraph [ref=e9]: Sign in to your trading terminal
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e12]: Email
+          - textbox "trader@fx.com" [ref=e13]
+        - generic [ref=e14]:
+          - generic [ref=e15]: Password
+          - textbox "Enter password" [ref=e16]
+        - button "Access Terminal" [ref=e17] [cursor=pointer]:
+          - text: Access Terminal
+          - img [ref=e18]
+      - generic [ref=e22]: OR
+      - button "Continue with Google" [ref=e24] [cursor=pointer]:
+        - img [ref=e25]
+        - text: Continue with Google
+      - generic [ref=e30]:
+        - img [ref=e31]
+        - text: Encrypted Connection — v2.0
+  - button "Open Next.js Dev Tools" [ref=e39] [cursor=pointer]:
+    - img [ref=e40]
+  - alert [ref=e43]
